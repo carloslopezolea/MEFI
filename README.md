@@ -9,9 +9,9 @@ This element shall be used in Domain defined with ``-ndm 2 -ndf 3``
 
 ## Description
 
-The Membrane Fiber (MEFI) element, is described by four nodes, each containing three degrees of freedom
+The Membrane Fiber (MEFI) element (Fig. 1a), is described by four nodes, each containing three degrees of freedom
 (DOFs), two translations, and one in-plane rotation (drilling) DOF, which incorporates a blended interpolation
-function for the displacements over the element. The element formulation accommodates the quadrature points
+function for the displacements over the element (Fig. 1b-c). The element formulation accommodates the quadrature points
 and weights of the classical finite element formulation of membrane elements to resemble strips (fibers), similarly
 to macroscopic elements.
 
