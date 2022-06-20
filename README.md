@@ -15,8 +15,8 @@ function for the displacements over the element. The element formulation accommo
 and weights of the classical finite element formulation of membrane elements to resemble strips (fibers), similarly
 to macroscopic elements.
 
-![Model_Formulation]()<br/>
-**Figure 1: MEFI Element Formulation**
+![Model_Formulation](/images/MEFI_Element.jpg)<br/>
+**Figure 1: Membrane fiber element: (a) Element idealization; (b) Interpolation function at bottom and top edges; (c) Interpolation function at left and right edges.**
 
 ### MEFI Input
 ```bash
