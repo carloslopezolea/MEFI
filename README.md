@@ -18,7 +18,7 @@ to macroscopic elements.
 ![Model_Formulation](/images/MEFI_Element.jpg)<br/>
 **Figure 1: Membrane fiber element: (a) Element idealization; (b) Interpolation function at bottom and top edges; (c) Interpolation function at left and right edges.**
 
-### MEFI Input
+### MEFI Input TCL
 ```bash
 element MEFI eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {Widths} -mat {Material_tags} <-Density Dens>
 
@@ -44,7 +44,7 @@ The following recorders are available with the MEFI element.
 | RCPanel $fibTag $Response | Returns RC panel (macro-fiber) $Response for a $fibTag-th panel (1 ≤ fibTag ≤ m). For available $Response-s refer to nDMaterial [FSAM](https://opensees.berkeley.edu/wiki/index.php/FSAM_-_2D_RC_Panel_Constitutive_Behavior) |
 
 ## Example
-
+In progress.  
 
 
 ## References
