@@ -25,7 +25,7 @@ element MEFI eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {Width
 ```
 
 | Parameter | Description |
-|----------|------------|
+|:----------|:------------|
 | eleTag | unique element tag|
 | iNode jNode kNode lNode | tags of element nodes defined in counterclockwise direction|
 | m | number of element macro-fibers|
@@ -38,14 +38,14 @@ element MEFI eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {Width
 
 The following recorders are available with the MEFI element.
 
-| recorder | description |
-|----------|------------|
-| globalForce | Element global forces|
-| RCPanel $fibTag $Response | Returns RC panel (macro-fiber) $Response for a $fibTag-th panel (1 ≤ fibTag ≤ m). For available $Response-s refer to nDMaterial [FSAM](https://opensees.berkeley.edu/wiki/index.php/FSAM_-_2D_RC_Panel_Constitutive_Behavior) |
+| Recorder | Description |
+|:----------|:------------|
+| globalForce | element global forces|
+| RCPanel $fibTag $Response | returns RC panel (macro-fiber) $Response for a $fibTag-th panel (1 ≤ fibTag ≤ m). For available $Response-s refer to nDMaterial [FSAM](https://opensees.berkeley.edu/wiki/index.php/FSAM_-_2D_RC_Panel_Constitutive_Behavior) |
 
 ## Example
 Input files (.tcl) used to build the wall model and perform displacement-controlled analysis can be found in [RC Wall Example](/examples/Example_1). To run the analysis use the file ``Run_Pushover.tcl``.
 
 
 ## References
-López, C. N., Rojas, F., & Massone, L. M. (2022). Membrane fiber element for reinforced concrete walls – the benefits of macro and micro modeling approaches. Engineering Structures, 254, 113819. [link](https://www.sciencedirect.com/science/article/abs/pii/S0141029621018897)<br/>
+- López, C. N., Rojas, F., & Massone, L. M. (2022). Membrane fiber element for reinforced concrete walls – the benefits of macro and micro modeling approaches. Engineering Structures, 254, 113819. [link](https://www.sciencedirect.com/science/article/abs/pii/S0141029621018897)<br/>
