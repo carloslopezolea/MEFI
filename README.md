@@ -43,9 +43,12 @@ The following recorders are available with the MEFI element.
 | globalForce | element global forces|
 | RCPanel $fibTag $Response | returns RC panel (macro-fiber) $Response for a $fibTag-th panel (1 ≤ fibTag ≤ m). For available $Response-s refer to nDMaterial [FSAM](https://opensees.berkeley.edu/wiki/index.php/FSAM_-_2D_RC_Panel_Constitutive_Behavior) |
 
-## Example
-Input files (.tcl) used to build the wall model and perform displacement-controlled analysis can be found in [RC Wall Example](/examples/Example_1). To run the analysis use the file ``Run_Pushover.tcl``.
+## Example 1
+The RC wall specimen RW-A20-P10-S38 [(Tran and Wallace, 2012)](https://escholarship.org/uc/item/1538q2p8) is simulated using the MEFI element. Input files (.tcl) used to build the wall model and perform displacement-controlled analysis can be found in [RC Wall Example](/examples/Example_1). To run the analysis use the file ``Run_Pushover.tcl``. Analytical and experimental lateral load versus top displacement responses are presented in Fig. 2. 
 
+<p align="center"><img src="/images/Wall_Response.jpg" width="40%"></p>
+
+                                           **Figure 2: Lateral load versus top displacement response for specimen RW-A20-P10-S38.**   
 
 ## References
 - López, C. N., Rojas, F., & Massone, L. M. (2022). Membrane fiber element for reinforced concrete walls – the benefits of macro and micro modeling approaches. Engineering Structures, 254, 113819. [link](https://www.sciencedirect.com/science/article/abs/pii/S0141029621018897)<br/>
